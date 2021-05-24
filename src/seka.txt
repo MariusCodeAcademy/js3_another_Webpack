@@ -7,7 +7,7 @@ npm init
 3. Instaliuojam webpack
  npm install webpack webpack-cli --save-dev
 
- 4. git ingonre  for node modules
+4. git ingonre  for node modules ir dist
 
  paruosimas produkcijai - sugeneruojam optmalius failus, sujungiam i viena ir pap.
 npx webpack --mode production
