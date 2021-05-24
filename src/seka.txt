@@ -17,6 +17,16 @@ pakeiciam scripta kad start scriptas paleidzia dev konfiguracija
 https://webpack.js.org/plugins/html-webpack-plugin/
 inicijuojam plugina confige ir nurodom jam naudoti musu template.html
 
+7. css
+
+Babel 
+
+Dev Server
+
+
+IMG
+
+IMG compress
 
 
 pasidarem scpriptus dev build ir start 
