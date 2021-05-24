@@ -36,19 +36,17 @@ scripte prirasyti 'serve'
 pasidarom kad 'npm run serve' paleistu localu serveri darbui
 
 
-IMG
+10. IMG
+https://webpack.js.org/guides/asset-management/#loading-images
+
+
 
 IMG compress
 
+Css minimize
 
-pasidarem scpriptus dev build ir start 
 
-norim idiegti html plugin 
-https://webpack.js.org/plugins/html-webpack-plugin/
-npm install --save-dev html-webpack-plugin
 
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const path = require('path');
 
 // post css plugin - kad pridetu reikalingus webkit pagal narsyle ir versija
 npm install --save-dev postcss postcss-loader postcss-preset-env

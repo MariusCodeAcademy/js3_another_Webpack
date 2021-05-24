@@ -13,6 +13,7 @@ module.exports = {
     filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),
     clean: true, // isvalom pries tai dist buvusius failus
+    assetModuleFilename: "images/[name][ext]", // nurodom paveiksleliu talpinimo vieta
   },
   devServer: {
     contentBase: path.join(__dirname, "dist"),
@@ -21,6 +22,11 @@ module.exports = {
   },
   module: {
     rules: [
+      // images
+      {
+        test: /\.(png|svg|jpe?g|gif)$/i,
+        type: "asset/resource",
+      },
       // css loader
       {
         test: /\.css$/i, // pritaikom .css failam
@@ -41,7 +47,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "/src/html/template.html",
+      template: "./src/html/template.html",
       templateParameters: {
         title: "We now know WebPack.",
         mainTitle: "This is easy",
