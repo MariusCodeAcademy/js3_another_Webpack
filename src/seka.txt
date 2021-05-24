@@ -9,11 +9,15 @@ npm init
 
 4. git ingonre  for node modules ir dist
 
- paruosimas produkcijai - sugeneruojam optmalius failus, sujungiam i viena ir pap.
-npx webpack --mode production
+5. pridedam webpack configuracijos faila webpack.dev.js
+pakeiciam scripta kad start scriptas paleidzia dev konfiguracija
+"start": "webpack --config webpack.dev.js"
 
-sukompiliavimas kurimui (development mode )
-npx webpack --mode development
+6. Html generavimo plugin
+https://webpack.js.org/plugins/html-webpack-plugin/
+inicijuojam plugina confige ir nurodom jam naudoti musu template.html
+
+
 
 pasidarem scpriptus dev build ir start 
 
