@@ -13,6 +13,13 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: "/src/html/template.html",
+      templateParameters: {
+        title: "We now know WebPack.",
+      },
+      minify: {
+        removeComments: true,
+        collapseWhitespace: false,
+      },
     }),
   ],
 };
