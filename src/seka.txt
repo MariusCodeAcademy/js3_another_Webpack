@@ -29,7 +29,11 @@ npm install -D babel-loader @babel/core @babel/preset-env
 devtool: "source-map", // galima matyti is kurio failo koks kodas atejo
 
 
-Dev Server
+9. Dev Server
+https://webpack.js.org/configuration/dev-server/#root
+npm install --save-dev webpack-dev-server
+scripte prirasyti 'serve' 
+pasidarom kad 'npm run serve' paleistu localu serveri darbui
 
 
 IMG
