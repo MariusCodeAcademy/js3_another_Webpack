@@ -1,10 +1,13 @@
 1. pasikuriam nauja projekta prisidedam git + github
 bent vienas modulinis js failas su kazkokiu funkciionalumu + index.js
 
-2. Inicializuoti npm
+2. Inicializuoti npm. 
+npm init
 
- Instaliuojam webpack
+3. Instaliuojam webpack
  npm install webpack webpack-cli --save-dev
+
+ 4. git ingonre  for node modules
 
  paruosimas produkcijai - sugeneruojam optmalius failus, sujungiam i viena ir pap.
 npx webpack --mode production

@@ -1,0 +1,26 @@
+{
+  "name": "anothe_rwebpack_project",
+  "version": "1.0.0",
+  "description": "Now we test how to do it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariusCodeAcademy/js3_another_Webpack.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "M.K.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MariusCodeAcademy/js3_another_Webpack/issues"
+  },
+  "homepage": "https://github.com/MariusCodeAcademy/js3_another_Webpack#readme",
+  "devDependencies": {
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0"
+  }
+}
