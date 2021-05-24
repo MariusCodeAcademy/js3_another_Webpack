@@ -4,7 +4,7 @@
   "description": "Now we test how to do it",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --mode development"
+    "start": "webpack --config webpack.dev.js"
   },
   "repository": {
     "type": "git",
