@@ -1,0 +1,27 @@
+Instaliuojam webpack
+ npm install webpack webpack-cli --save-dev
+
+ paruosimas produkcijai - sugeneruojam optmalius failus, sujungiam i viena ir pap.
+npx webpack --mode production
+
+sukompiliavimas kurimui (development mode )
+npx webpack --mode development
+
+pasidarem scpriptus dev build ir start 
+
+norim idiegti html plugin 
+https://webpack.js.org/plugins/html-webpack-plugin/
+npm install --save-dev html-webpack-plugin
+
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require('path');
+
+// post css plugin - kad pridetu reikalingus webkit pagal narsyle ir versija
+npm install --save-dev postcss postcss-loader postcss-preset-env
+
+
+.browserslistrc
+last 2 versions //imam paskutines 2 narsykliu versijas
+> 0.5% // bandom palaikyti 99.5% narsykliu 
+IE 9 // bandom prideti palaikyma internet explorer 9
+
