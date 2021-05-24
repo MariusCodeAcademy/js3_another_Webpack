@@ -1,4 +1,9 @@
-Instaliuojam webpack
+1. pasikuriam nauja projekta prisidedam git + github
+bent vienas modulinis js failas su kazkokiu funkciionalumu + index.js
+
+2. Inicializuoti npm
+
+ Instaliuojam webpack
  npm install webpack webpack-cli --save-dev
 
  paruosimas produkcijai - sugeneruojam optmalius failus, sujungiam i viena ir pap.
