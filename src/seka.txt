@@ -7,7 +7,7 @@ npm init
 3. Instaliuojam webpack
  npm install webpack webpack-cli --save-dev
 
-4. git ingonre  for node modules ir dist
+4. git ingonre for node modules ir dist
 
 5. pridedam webpack configuracijos faila webpack.dev.js
 pakeiciam scripta kad start scriptas paleidzia dev konfiguracija
@@ -38,10 +38,16 @@ pasidarom kad 'npm run serve' paleistu localu serveri darbui
 
 10. IMG
 https://webpack.js.org/guides/asset-management/#loading-images
+assetModuleFilename: "images/[name][ext]", // nurodom paveiksleliu talpinimo vieta
 
 
+11. IMG compress
+https://webpack.js.org/plugins/image-minimizer-webpack-plugin/
+npm install image-minimizer-webpack-plugin --save-dev
+npm install imagemin-gifsicle imagemin-mozjpeg imagemin-pngquant imagemin-svgo --save-dev
+new image-minimizer-webpack-plugin()
+su options is documentacijos arba musu pvz
 
-IMG compress
 
 Css minimize
 
