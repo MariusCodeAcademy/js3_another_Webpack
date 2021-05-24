@@ -17,7 +17,11 @@ pakeiciam scripta kad start scriptas paleidzia dev konfiguracija
 https://webpack.js.org/plugins/html-webpack-plugin/
 inicijuojam plugina confige ir nurodom jam naudoti musu template.html
 
-7. css
+7. CSS 
+https://webpack.js.org/guides/asset-management/#loading-css
+npm install --save-dev style-loader css-loader
+pridejom taisykle kad .css failam naudoti css loader
+
 
 Babel 
 
