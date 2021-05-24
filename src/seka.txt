@@ -22,8 +22,12 @@ https://webpack.js.org/guides/asset-management/#loading-css
 npm install --save-dev style-loader css-loader
 pridejom taisykle kad .css failam naudoti css loader
 
+8. Babel
+https://webpack.js.org/loaders/babel-loader/
+npm install -D babel-loader @babel/core @babel/preset-env
 
-Babel 
+devtool: "source-map", // galima matyti is kurio failo koks kodas atejo
+
 
 Dev Server
 
