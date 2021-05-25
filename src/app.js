@@ -7,6 +7,7 @@ import './css/main.css';
 import fbLogo from './img/facebook.svg';
 import pngTest from './img/png-test.png';
 
+// eslint-disable-next-line no-console
 console.log('greet fn', greet('its a monday today'));
 
 function addImageTo(importedImage) {
@@ -18,4 +19,4 @@ function addImageTo(importedImage) {
 addImageTo(fbLogo);
 addImageTo(pngTest);
 
-const blue = 'green';
+// const blue = 'green';

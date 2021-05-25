@@ -6,7 +6,7 @@ const ESLintPlugin = require('eslint-webpack-plugin');
 // webpack lint plugi options
 const lintOptions = {
   context: path.resolve(__dirname),
-  fix: true,
+  // fix: true,
 };
 
 module.exports = {
