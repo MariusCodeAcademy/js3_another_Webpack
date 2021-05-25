@@ -49,7 +49,15 @@ new image-minimizer-webpack-plugin()
 su options is documentacijos arba musu pvz
 
 
-Css minimize
+12. Css minimize
+
+https://webpack.js.org/plugins/mini-css-extract-plugin/
+npm install --save-dev mini-css-extract-plugin
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+
+https://webpack.js.org/plugins/css-minimizer-webpack-plugin/
+npm install css-minimizer-webpack-plugin --save-dev
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 
 
 

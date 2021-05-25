@@ -3,6 +3,9 @@ const path = require("path"); // node modulis dirbti su keliais iki failu
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
 
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
+
 module.exports = {
   mode: "production",
   target: "web",
@@ -27,7 +30,7 @@ module.exports = {
       // css loader
       {
         test: /\.css$/i, // pritaikom .css failam
-        use: ["style-loader", "css-loader"], // uzkraunam css
+        use: [MiniCssExtractPlugin.loader, "css-loader"], // uzkraunam css
       },
       // babel loader
       {
@@ -43,6 +46,7 @@ module.exports = {
     ],
   },
   plugins: [
+    new MiniCssExtractPlugin(),
     new ImageMinimizerPlugin({
       minimizerOptions: {
         // Lossless optimization with custom option
@@ -67,4 +71,7 @@ module.exports = {
       },
     }),
   ],
+  optimization: {
+    minimizer: [new CssMinimizerPlugin()],
+  },
 };
