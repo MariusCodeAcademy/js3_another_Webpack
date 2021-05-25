@@ -5,6 +5,7 @@ const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
 
 module.exports = {
   mode: "development",
+  target: "web",
   devtool: "source-map", // galima matyti is kurio failo koks kodas atejo
   entry: {
     // kuri faila paims webpack kaip pagrindini
@@ -20,6 +21,7 @@ module.exports = {
     contentBase: path.join(__dirname, "dist"),
     // compress: true,
     port: 8080,
+    // hot: true, // css reload be refresh
   },
   module: {
     rules: [
