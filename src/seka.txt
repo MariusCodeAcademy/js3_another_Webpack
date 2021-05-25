@@ -63,6 +63,9 @@ const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 13. ESLINT
 https://webpack.js.org/plugins/eslint-webpack-plugin/#install
 npm install eslint-webpack-plugin eslint --save-dev
+npm install eslint-config-airbnb-base eslint-plugin-import --save-dev
+.eslintrc.js savo root directorijoj
+./node_modules/.bin/eslint src
 
 
 You should then set up a configuration file:
