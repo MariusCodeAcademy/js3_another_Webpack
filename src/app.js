@@ -1,5 +1,6 @@
 "use strict"; // here we go again
-import greet from "./js/greet.js";
+
+import greet from "./js/greet";
 // main stilius
 import "./css/main.css";
 // paveikslelis
@@ -16,3 +17,5 @@ function addImageTo(importedImage) {
 
 addImageTo(fbLogo);
 addImageTo(pngTest);
+
+const blue = "green";

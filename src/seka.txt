@@ -60,6 +60,15 @@ npm install css-minimizer-webpack-plugin --save-dev
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 
 
+13. ESLINT
+https://webpack.js.org/plugins/eslint-webpack-plugin/#install
+npm install eslint-webpack-plugin eslint --save-dev
+
+
+You should then set up a configuration file:
+./node_modules/.bin/eslint --init
+node ./node_modules/.bin/eslint --init
+
 
 
 // post css plugin - kad pridetu reikalingus webkit pagal narsyle ir versija
